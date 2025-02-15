@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: rgb(185, 152, 216);
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    min-height: 300px;
+    margin: 150px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgb(16, 12, 12)
+}
+ .titre{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.souligne{
+    border-top: 2px solid rgb(50, 50, 229);
+    width: 70px;
+    display: flex;
+   margin: 6px auto 0;
+}
+.buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+.buttons i{
+    color: rgb(50, 50, 229) ;
+}
+
+.change{
+    background: rgb(50, 50, 229) ;
+    color: white;
+    border: none;
+    width: auto;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.share{
+    
+    background: white;
+    color: black;
+    border: 1px solid  rgb(50, 50, 229);
+    
+}
+.change, .share{
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.auteur{
+    text-align: right;
+    color: rgb(54, 52, 52);
+    font-family: "&matchmaker", "poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.tiret{
+    width: 35px;
+    border-top: 1px solid  rgb(50, 50, 229);
+}
+
+.citation{
+    margin-top: 15px;
+    font-family: "Baskerville Old Face", "poppins", sans-serif;
+    font-size: 35px;
+    padding: 7px;
+}

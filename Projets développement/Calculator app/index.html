@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator app</title>
+</head>
+<body>
+   <div class="container">
+        <h2>Calculator app</h2>
+        <input type="text" name="" id="display" disabled>
+        <div class="buttons">
+             <button onclick="cleardisplay()" id="tout">Effacer tout</button>
+             <button onclick="appendvalue('9')"> 9 </button>
+             <button onclick="deletelast()" class="sign">←</button>
+             <button onclick="appendvalue('7')">7</button>
+             <button onclick="appendvalue('8')">8</button>
+             <button onclick="appendvalue('/')" class="sign" >/</button>
+             <button onclick="appendvalue('5')">5</button>
+             <button onclick="appendvalue('6')">6</button>
+             <button onclick="appendvalue('*')" class="sign">*</button>
+             <button onclick="appendvalue('3')">3</button>
+             <button onclick="appendvalue('4')">4</button>
+             <button onclick="appendvalue('-')" class="sign">-</button>
+             <button onclick="appendvalue('1')">1</button>
+             <button onclick="appendvalue('2')">2</button>
+             <button onclick="appendvalue('+')" class="sign">+</button>
+             <button onclick="appendvalue('0')">0</button>
+             <button onclick="appendvalue('.')">.</button>
+             <button onclick="calcresult()">=</button>
+        </div>
+   </div>
+   <script src="script.js"></script>   
+</body>
+</html>

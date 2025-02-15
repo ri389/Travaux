@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    padding: 10px;
+    background: linear-gradient(135deg, rgb(186, 98, 98), rgb(219, 172, 85), rgb(101, 41, 51));
+    min-height: 120vh;
+}
+
+.container{
+    width: 300px;
+    margin: 50px auto 20px;
+    background: rgb(60, 60, 149);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    height: 60vh;
+}
+.container h2{
+    color: white;
+}
+.container input{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 7px;
+    height: 30px;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+}
+.buttons button{
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons  #tout{
+    background-color: red;
+    color: white
+}
+.buttons .sign{
+    background-color: green;
+    color: white;
+}

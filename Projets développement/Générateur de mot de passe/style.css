@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: rgb(0, 34, 70);
+    box-sizing: border-box;
+    color: white;
+    font-size: 60px;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    margin-left: 10vw;
+    margin-right:auto;
+    margin-top: 10%;
+    margin-bottom: 80%;
+    flex-direction: column;
+    font-size: 50px ;
+    padding: 15px;
+    gap: 20px;
+}
+.password{
+    color: rgb(25, 124, 25);
+    border-bottom: 4px solid  rgb(25, 124, 25) ;
+    margin-top: 8px;
+}
+.displayer{
+    margin-top: 30px;
+    background: white;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+}
+.displayer i{
+    color:  rgb(25, 124, 25) ;
+}
+
+.button{
+    background: rgb(25, 124, 25) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 6px;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
